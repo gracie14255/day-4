@@ -1,0 +1,47 @@
+html {
+	padding:0px;
+	margin: 0px;
+}
+body{
+	padding: 0px;
+	margin: 0px;
+}
+header {
+ 	background-image: url(food.png);
+ 	grid-column: span 3;
+ 	padding: 16px;
+ }
+aside {
+ 	background-color: green;
+ 	padding: 16px;
+ 	grid-column: span 3;
+ }
+nav {
+ 	background-color: blue;
+ 	padding:16px;
+ }
+main{
+ 	background-color: gray;
+ 	padding: 16px;
+ }
+
+footer{
+ 	background-color: purple ;
+ 	grid-column: span 3;
+ 	padding: 16px;
+ 	color: white;
+
+ }
+.container {
+	border: 1px solid rgba(0,0,0,0.4);
+	display:grid ;
+	min-height: 100vh;
+	grid-template-columns:15% 85%;
+	grid-template-rows: 120px 45px auto 80px;
+}
+.title {
+	font-family: cursive;
+	font-size: 40px;
+	font-weight: bold;
+	padding: 30px;
+}
